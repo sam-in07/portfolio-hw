@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", serif;
+}
+
+
+
+nav{
+    display: flex;
+     /* flex mane row wise sajabe */
+    justify-content: space-between;
+    /* box gulae majkhne space dibe */
+    align-items: center;
+    /* iteam gula majkhane  */
+
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    /* Remove bullets */
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-primary {
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-secondary {
+    
+    color: #FD6E0A;
+   
+}
+
