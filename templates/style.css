@@ -51,5 +51,41 @@ nav ul {
 
 
 .banner{
+    margin-left: 230px;
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
     
 }
+.banner-info {
+    max-width: 585px
+}
+.banner-greetings {
+  color: #474747;
+ font-family: "open sans";
+ font-size: 45px;
+ font-weight: 600;
+ margin-bottom: 5px;
+}
+
+.banner-title{
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-desc {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner img {
+    margin-right: 38px;
+}
+
+ 

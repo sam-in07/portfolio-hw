@@ -7,3 +7,15 @@
 5. create account
 6. drag and drop the `developer-portfolio.fig`
 7. Enjoy !!! 
+
+
+
+working with Banners : 
+.banner :
+![alt text](image.png)
+
+.banner-greetings & title 
+![alt text](image-1.png)
+
+before adding image :
+![alt text](image-2.png)
