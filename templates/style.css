@@ -50,27 +50,27 @@ nav ul {
 }
 
 
-.banner{
-    margin-left: 230px;
-    margin-top: 47px;
+.banner {
     display: flex;
-    align-items: center;
-    
-}
-.banner-info {
-    max-width: 585px
-}
-.banner-greetings {
-  color: #474747;
- font-family: "open sans";
- font-size: 45px;
- font-weight: 600;
- margin-bottom: 5px;
+    padding-left: 230px;
+    margin-top: 50px;
 }
 
-.banner-title{
-    color: #181818;
-    font-family: "Open Sans";
+.banner img {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greeting {
+    margin-top: 185px;
+    margin-bottom: 5px;
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
     font-size: 85px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -78,14 +78,18 @@ nav ul {
 
 .banner-desc {
     color: var(--Dark-03, #757575);
-    font-family: "Open Sans";
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+    max-width: 585px;
 }
 
-.banner img {
-    margin-right: 38px;
+.btn-contact {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 18px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
-
- 
