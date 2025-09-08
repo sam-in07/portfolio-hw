@@ -7,31 +7,38 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
 </head>
 <body>
     
-    <header class="hide">
-         <nav>
+<header>
+        <nav>
             <h1 class="nav-title dark-01">Ma<span style="color:#FD6E0A">r</span>y</h1>
-            
+            <!-- ul>li*2>a^btn -->
             <ul>
-                <li><a href="https://github.com/rishat8903" target="_blank">Portfolio</a></li>
+                <li><a href="https://github.com/sam-in07" target="_blank">Portfolio</a></li>
                 <li><a href="#">Blog</a></li>
                 <button class="btn-primary">Hire Me</button>
             </ul>
         </nav>
 
-        <div class="banner">
-            <div>
-                <h3 class="banner-greeting">Hi, I am</h3>
-                <h2 class="banner-title">Mary Hardy</h2>
+        <section class="banner">
+            <div class="banner-info">
+                <!-- h2.banner-greetings+h1.banner-title+p.banner-desc+btn*2 -->
+                <h2 class="banner-greetings">Hi, I am</h2>
+                <h1 class="banner-title">Mary Hardy</h1>
                 <p class="banner-desc">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning
                     because as to society behaved moments.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-contact">Contact</button>
+                <button class="btn-primary" style="margin-right: 30px;"><i class="fa-solid fa-download contact-icon"></i>Download CV</button>
+                <button class="btn-secondary"><i class="fa-solid fa-phone contact-icon"></i>Contact</button>
             </div>
-            <img src="portfolio-hw/images/hardy.png" alt="Hardy Vai er chobi">
-        </div>
+            <img src="images/hardy.png" alt="">
+        </section>
     </header>
 
   
