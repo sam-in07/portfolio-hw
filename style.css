@@ -113,3 +113,9 @@ Banner styles start */
     margin-right: 38px;
 }
 
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 130px;
+}    
