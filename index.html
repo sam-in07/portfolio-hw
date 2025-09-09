@@ -1,130 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mary Profile </title>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Portfolio | Jamil</title>
     <link rel="stylesheet" href="style.css">
-
     <style>
-        .hidden{
-            display: none;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
 </head>
+
 <body>
-    
-<header>
+    <header>
         <nav>
-            <h1 class="nav-title dark-01">Ma<span style="color:#FD6E0A">r</span>y</h1>
-            <!-- ul>li*2>a^btn -->
+            <h1>Ma<span class="nav-title-r">r</span>y</h1>
             <ul>
-                <li><a href="https://github.com/sam-in07" target="_blank">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <button class="btn-primary">Hire Me</button>
+                 <li><a href="https://github.com/sam-in07" target="_blank">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><button class="btn-primary">Hire Me</button></li>
             </ul>
         </nav>
-
         <section class="banner">
-            <div class="banner-info">
-                <!-- h2.banner-greetings+h1.banner-title+p.banner-desc+btn*2 -->
-                <h2 class="banner-greetings">Hi, I am</h2>
-                <h1 class="banner-title">Mary Hardy</h1>
-                <p class="banner-desc">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning
-                    because as to society behaved moments.</p>
-                <button class="btn-primary" style="margin-right: 30px;"><i class="fa-solid fa-download contact-icon"></i>Download CV</button>
-                <button class="btn-secondary"><i class="fa-solid fa-phone contact-icon"></i>Contact</button>
+            <div class="banner-text">
+                <h2>Hi, I am</h2>
+                <h1>Mary Hardy</h1>
+                <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
+                    behaved moments.</p>
+                <button class="btn-primary btn-download-cv"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 306.7L246.6 265.3C234.1 252.8 213.8 252.8 201.3 265.3C188.8 277.8 188.8 298.1 201.3 310.6L297.3 406.6C309.8 419.1 330.1 419.1 342.6 406.6L438.6 310.6C451.1 298.1 451.1 277.8 438.6 265.3C426.1 252.8 405.8 252.8 393.3 265.3L352 306.7L352 96zM160 384C124.7 384 96 412.7 96 448L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 448C544 412.7 515.3 384 480 384L433.1 384L376.5 440.6C345.3 471.8 294.6 471.8 263.4 440.6L206.9 384L160 384zM464 440C477.3 440 488 450.7 488 464C488 477.3 477.3 488 464 488C450.7 488 440 477.3 440 464C440 450.7 450.7 440 464 440z" />
+                    </svg> Download CV</button>
+                <button class="btn-secondary">Contact</button>
             </div>
-            <img src="images/hardy.png" alt="">
+
+            <img src="/portfolio-resources/images/hardy.png" alt="">
         </section>
     </header>
 
-  <main>
-    <section class="about"  >
-    <div style="border: 1px solid black; background-color: white;">
-       
-       <h3 class="section-title" >
-        About Me
-       </h3>    
-       <p class="section-desc" >
-        I, m a designer & developer with a passion for web design. I enjoy developing
-        simple, clean and slick websites that provide real value to the end user. Thousands of clients have
-        procured exceptional resulfs while working with me. Delivering work within time and budget which
-        meets clients requirements in our mata.
-       </p>
-       <div class="about-items dark-01" >
-        <div class="about-item" >
-             <h3>Name:</h3>
-            <p>Mary Hardy</p>
-        </div>
-        <div class="about-item" >
-            <h3>Email:</h3>
-            <p>info@gmail.com</p>
-        </div>
-        <div class="about-item" >
-             <h3>Date of birth:</h3>
-             <p>11 November 1987</p>
-        </div>
-        <div class="about-item" >
-            <h3>From:</h3>
-            <p>Los Angeles, USA</p>
-        </div>
-       
-     </div>
-     
-    </div>
-
-</section>
-<section class="skill-section">
-     <div class="section-title" >
-        What I do
-     </div> 
-     <div class="section-desc" >
-        I have more than 10 years experience building software for clients all over the  world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find
-         out more about my experience? Check out my online resume and project portfolio.
-     </div>
-     
-    <div class="skill-items">
-        <div class="skill-item">
-        <img src="images/icons/js.png" alt="">
-         <h3>Vanilla JavaScript</h3>
-         <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
-          free icons available. Aenean commodo ligula eget dolor.</p>
-     </div>
-       <div class="skill-item">
-        <img src="images/icons/react.png" alt="">
-         <h3>React</h3>
-         <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
-          free icons available. Aenean commodo ligula eget dolor.</p>
-     </div>
-      <div class="skill-item">
-        <img src="images/icons/nodejs.png" alt="">
-         <h3>Node.js</h3>
-         <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
-          free icons available. Aenean commodo ligula eget dolor.</p>
-     </div>
-      <div class="skill-item">
-        <img src="images/icons/mongo.png" alt="">
-         <h3>MongoDB</h3>
-         <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
-          free icons available. Aenean commodo ligula eget dolor.</p>
-    </div>
-    </div>
-
-      
-    </section>
-
-    <section class="summary-section ">
-        <h2 class="section-title">A summary of My Resume</h2>
-        <div class="summary-container">
+    <main>
+        <!-- section.about-me>div>h3+p+div.about-info-container>div*4>p*2 -->
+        <section class="about-me">
             <div>
-                    <h3 class="summary-col-title">My Education</h3>
-                   
+                <h3>About Me</h3>
+                <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick
+                    websites that provide real value to the end user. Thousands of clients have procured exceptional
+                    resulfs while working with me. Delivering work within time and budget which meets clients
+                    requirements in our mata.</p>
+                <div class="about-info-container">
+                    <div>
+                        <h3>Name:</h3>
+                        <p>Mary Hardy </p>
+                    </div>
+                    <div>
+                        <h3>Email:</h3>
+                        <p>info@gmail.com</p>
+                    </div>
+                    <div>
+                        <h3>Date of birth:</h3>
+                        <p>11 November 1987</p>
+                    </div>
+                    <div>
+                        <h3>From:</h3>
+                        <p>Los Angeles, USA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section.skill-section>h3+p+.skills-container>div.skill-card*4>img+h4+p -->
+        <section class="skill-section">
+            <h3>What I do</h3>
+            <p>I have more than 10 years experience building software for clients all over the world. Below is a quick
+                overview of my main technical skill sets and technologies i use. Want to find out more about my
+                experience? Check out my online resume and project portfolio.</p>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/js.png" alt="">
+                    <h4>Vanilla JavaScript</h4>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
+                        free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/react.png" alt="">
+                    <h4>React</h4>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
+                        free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/nodejs.png" alt="">
+                    <h4>nodejs</h4>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
+                        free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/mongo.png" alt="">
+                    <h4>MongoDB</h4>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5
+                        free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section.summary-section>h2+.summary-columns>.summary-items*2>h3+.summary-item*3>h3+p+p+hr -->
+        <section class="summary-section">
+            <h2>A summary of My Resume</h2>
+            <div class="summary-columns">
+                <div class="summary-items">
+                    <h3>My Education</h3>
                     <div class="summary-item">
                         <h3>Master in Computer Engineering</h3>
-                        <h6>Harvard University / 2015 - 2017</h6>
+                        <p>Harvard University / 2015 - 2017</p>
                         <p>List skill/technologies here. You can change the icon above
                             to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
                         </p>
@@ -132,7 +119,7 @@
                     </div>
                     <div class="summary-item">
                         <h3>Master in Computer Engineering</h3>
-                        <h6>Harvard University / 2015 - 2017</h6>
+                        <p>Harvard University / 2015 - 2017</p>
                         <p>List skill/technologies here. You can change the icon above
                             to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
                         </p>
@@ -140,48 +127,70 @@
                     </div>
                     <div class="summary-item">
                         <h3>Master in Computer Engineering</h3>
-                        <h6>Harvard University / 2015 - 2017</h6>
+                        <p>Harvard University / 2015 - 2017</p>
                         <p>List skill/technologies here. You can change the icon above
                             to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
                         </p>
                     </div>
 
-                
+                </div>
+                <div class="summary-items">
+                    <h3>My Experience</h3>
+                    <div class="summary-item">
+                        <h3>Master in Computer Engineering</h3>
+                        <p>Harvard University / 2015 - 2017</p>
+                        <p>List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="summary-item">
+                        <h3>Master in Computer Engineering</h3>
+                        <p>Harvard University / 2015 - 2017</p>
+                        <p>List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="summary-item">
+                        <h3>Master in Computer Engineering</h3>
+                        <p>Harvard University / 2015 - 2017</p>
+                        <p>List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
-                    <h3 class="summary-col-title">My Experience</h3>
-                    <div class="summary-item">
-                        <h3>Master in Computer Engineering</h3>
-                        <h6>Harvard University / 2015 - 2017</h6>
-                        <p>List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </p>
-                        <hr>
-                    </div>
-                    <div class="summary-item">
-                        <h3>Master in Computer Engineering</h3>
-                        <h6>Harvard University / 2015 - 2017</h6>
-                        <p>List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </p>
-                        <hr>
-                    </div>
-                    <div class="summary-item">
-                        <h3>Master in Computer Engineering</h3>
-                        <h6>Harvard University / 2015 - 2017</h6>
-                        <p>List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </p>
-                    </div>
+            <div class="cv-btn-div">
+                <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-items">
+            <div class="socials">
+                <h3>Lets Connect</h3>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET,
+                    Monday through Friday.</p>
+                <div class="social-icons">
+                    <a href=""><img src="/portfolio-resources/images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="/portfolio-resources/images/icons/twitter.png" alt=""></a>
+                    <a href=""><img src="/portfolio-resources/images/icons/insta.png" alt=""></a>
+                </div>
+            </div>
+            <div class="contact">
+                <h3>Lets Message Me</h3>
+                <input class="contact-inp" placeholder="Your name" type="text" name="" id="">
+                <br>
+                <input class="contact-inp" placeholder="Your email" type="email" name="" id="">
+                <br>
+                <textarea class="contact-inp" placeholder="Message" rows="5" name="" id=""></textarea>
+                <br>
+                <button class="btn-primary ">Submit</button>
             </div>
         </div>
-
-    </section>
-
-
-  </main>
-
-
-
+    </footer>
 </body>
+
 </html>
