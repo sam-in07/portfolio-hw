@@ -46,6 +46,20 @@ nav li a {
 
                 <!-- h2.banner-greetings+h1.banner-title+p.banner-desc+btn*2 -->
                
+about me 
 
 
-![alt text](image-3.png)                                
+
+![alt text](image-3.png)       
+
+
+
+what i do
+
+
+![alt text](image-4.png)
+
+
+
+summary 
+![alt text](image-5.png)
